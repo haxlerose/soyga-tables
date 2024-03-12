@@ -92,5 +92,4 @@ inputs.each do |word|
   puts "\nSoyga table for keyword: #{word}\n\n"
   table = SoygaTable.new(word)
   table.print_table
-  puts
 end
